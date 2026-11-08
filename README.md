@@ -44,8 +44,8 @@ marketing-campaign-eda-business-insights/
 | Detail | Info |
 |---|---|
 | File | `marketing_campaign_dataset.csv` |
-| Rows | XX |
-| Columns | XX |
+| Rows | 200000 |
+| Columns | 18 |
 | Key columns | Campaign_Type, Channel_Used, Acquisition_Cost, ROI, Clicks, Impressions, Conversion_Rate, Engagement_Score |
 
 **Derived columns:**
@@ -59,8 +59,8 @@ marketing-campaign-eda-business-insights/
 - Standardized column names
 - Converted `Acquisition_Cost` (`$16,174.00`) and `Duration` (`30 days`) to numeric
 - Parsed `Date` column to datetime
-- Removed **XX** duplicate rows
-- Handled **XX** missing values
+- Removed duplicate rows
+- Handled missing values
 - Removed invalid rows (cost ≤ 0, clicks > impressions)
 - Standardized channel names (trim + title case)
 
@@ -74,41 +74,6 @@ marketing-campaign-eda-business-insights/
 4. Spend vs Revenue comparison
 5. Correlation analysis
 6. Campaign-type performance comparison
-
----
-
-## 🖼️ Visualizations
-
-### Marketing Funnel
-![Funnel](images/funnel.png)
-
-### ROI by Channel
-![ROI](images/roi.png)
-
-### Spend vs Revenue
-![Spend vs Revenue](images/spend_revenue.png)
-
-### Cost per Acquisition
-![CPA](images/cpa.png)
-
----
-
-## 🔍 Key Findings
-
-- **Best channel by ROI:** XX (ROI: XX%)
-- **Lowest channel by ROI:** XX (ROI: XX%)
-- **Biggest funnel drop-off:** XX → XX (XX%)
-- **Highest CPA:** XX | **Lowest CPA:** XX
-
----
-
-## 💡 Recommendations
-
-| Channel | Current Spend Share | ROI % | Action |
-|---|---|---|---|
-| XX | XX% | XX% | ⬆ Increase to XX% |
-| XX | XX% | XX% | ➡ Maintain |
-| XX | XX% | XX% | ⬇ Reduce to XX% |
 
 📄 Full 1-page report: [`report/Business_Insights_Report.pdf`](report/Business_Insights_Report.pdf)
 
@@ -148,9 +113,7 @@ jupyter notebook notebook/marketing_eda.ipynb
 
 ## 👤 Author
 
-**Your Name**
-[LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
-
+Thanuja
 ---
 
 ⭐ If you found this useful, consider giving the repo a star!
